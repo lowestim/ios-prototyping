@@ -1,0 +1,16 @@
+<html>
+<body onload="main();">
+    <div style="font-size: 30pt; text-align: center" onclick="openBuzz();">OPEN BUZZ</div>
+<script>
+function main() {
+    //alert('hey');
+    //window.open('buzz://conference/join?conferenceId=1234')
+    window.location.href = "buzz://conference/join?conferenceId=1234";
+}
+
+function openBuzz() {
+    window.open("buzz://conference/join?conferenceId=1234")
+}
+</script>
+</body>
+</html>
